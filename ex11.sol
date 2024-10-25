@@ -1,28 +1,12 @@
-//SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+//SPDX-_______-Identifier:MIT
+pragma solidity ^0._.7;
 
-contract cards{
-    uint8 constant deckSize = 52;
-    uint8 constant numberSuits = 4;
-    uint8 constant suitSize = 13;
-    enum Suit {spades, clubs, diamonds, hearts};
-    enum Value { two, three, four, five, six, seven, eight, nine, ten, jack, queen, king, ace};
-    
-    struct Card{ 
-        Suit suit;
-        Value value;
+_______t ex11{
+    ____ date = _____.____stamp;
+    ____ remaining;
+    event display(____);
+    ________ secondsToNextBirthday(____ bday)______{
+        remaining = bday - ____;
+        emit _______(remaining);
     }
-
-    Card[52] deck;
-
-    function getSuits() public return(uint8){return Suit.length;}
-    function initiateDeck() public {
-        for() int i=0; i<numberSuits; i++)
-            for (int j=0; j<suitSize; j++){
-                deckIndex = (i*suitSize) + j
-                deck[deckIndex].suit = j;
-                deck[deckIndex].value = i;
-            }
-    }
-
 }
